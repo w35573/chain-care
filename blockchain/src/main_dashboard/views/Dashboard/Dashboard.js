@@ -207,8 +207,8 @@ export default function Dashboard() {
                 tabIcon: BugReport,
                 tabContent: (
                   <Tasks
-                    checkedIndexes={[ 0, 3 ]}
-                    tasksIndexes={[ 0, 1, 2, 3 ]}
+                    checkedIndexes={[0, 3]}
+                    tasksIndexes={[0, 1, 2, 3]}
                     tasks={bugs}
                   />
                 )
@@ -218,8 +218,8 @@ export default function Dashboard() {
                 tabIcon: Code,
                 tabContent: (
                   <Tasks
-                    checkedIndexes={[ 0 ]}
-                    tasksIndexes={[ 0, 1 ]}
+                    checkedIndexes={[0]}
+                    tasksIndexes={[0, 1]}
                     tasks={website}
                   />
                 )
@@ -229,8 +229,8 @@ export default function Dashboard() {
                 tabIcon: Cloud,
                 tabContent: (
                   <Tasks
-                    checkedIndexes={[ 1 ]}
-                    tasksIndexes={[ 0, 1, 2 ]}
+                    checkedIndexes={[1]}
+                    tasksIndexes={[0, 1, 2]}
                     tasks={server}
                   />
                 )
@@ -249,12 +249,12 @@ export default function Dashboard() {
             <CardBody>
               <Table
                 tableHeaderColor="warning"
-                tableHead={[ "ID", "Name", "Salary", "Country" ]}
+                tableHead={["ID", "Name", "Salary", "Country"]}
                 tableData={[
-                  [ "1", "Dakota Rice", "$36,738", "Niger" ],
-                  [ "2", "Minerva Hooper", "$23,789", "Curaçao" ],
-                  [ "3", "Sage Rodriguez", "$56,142", "Netherlands" ],
-                  [ "4", "Philip Chaney", "$38,735", "Korea, South" ]
+                  ["1", "Dakota Rice", "$36,738", "Niger"],
+                  ["2", "Minerva Hooper", "$23,789", "Curaçao"],
+                  ["3", "Sage Rodriguez", "$56,142", "Netherlands"],
+                  ["4", "Philip Chaney", "$38,735", "Korea, South"]
                 ]}
               />
             </CardBody>
