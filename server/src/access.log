@@ -1,0 +1,1 @@
+::1 - - [04/Apr/2023:08:49:36 +0000] "OPTIONS /api/medicine/save-details HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"

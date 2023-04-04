@@ -3,6 +3,6 @@ import { saveTransactionDetails } from '../controllers/transaction.controller'
 
 const transactionRouter = Router();
 
-transactionRouter.route('/save-details').post(saveTransactionDetails);
+transactionRouter.route('/ails').post(saveTransactionDetails);
 
 export default transactionRouter;
