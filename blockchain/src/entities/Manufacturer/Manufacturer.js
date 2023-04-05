@@ -218,13 +218,13 @@ import Maps from "../../main_dashboard/views/Maps/Maps.js";
 let ps;
 
 const routes = [
-  {
-    path: "/dashboard",
-    name: "Dashboard",
-    icon: Dashboard,
-    component: ManufacturerDashboard,
-    layout: "/manufacturer"
-  },
+  // {
+  //   path: "/dashboard",
+  //   name: "Dashboard",
+  //   icon: Dashboard,
+  //   component: ManufacturerDashboard,
+  //   layout: "/manufacturer"
+  // },
   {
     path: "/create-medicine",
     name: "Create Medicine",

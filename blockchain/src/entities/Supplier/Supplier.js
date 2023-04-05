@@ -210,13 +210,13 @@ import ViewRequests from '../Events/ViewRequests';
 let ps;
 
 const routes = [
-  {
-    path: "/dashboard",
-    name: "Dashboard",
-    icon: Dashboard,
-    component: SupplierDashboard,
-    layout: "/supplier"
-  },
+  // {
+  //   path: "/dashboard",
+  //   name: "Dashboard",
+  //   icon: Dashboard,
+  //   component: SupplierDashboard,
+  //   layout: "/supplier"
+  // },
   {
     path: "/add-raw-material",
     name: "Add Raw Material",

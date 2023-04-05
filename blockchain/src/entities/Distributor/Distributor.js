@@ -80,13 +80,13 @@ import Maps from "../../main_dashboard/views/Maps/Maps.js";
 let ps;
 
 const routes = [
-    {
-        path: "/dashboard",
-        name: "Dashboard",
-        icon: Dashboard,
-        component: DistributorDashboard,
-        layout: "/distributor"
-    },
+    // {
+    //     path: "/dashboard",
+    //     name: "Dashboard",
+    //     icon: Dashboard,
+    //     component: DistributorDashboard,
+    //     layout: "/distributor"
+    // },
     {
         path: "/request-product",
         name: "Request Product",

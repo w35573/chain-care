@@ -20,13 +20,13 @@ import NotificationsPage from "../main_dashboard/views/Notifications/Notificatio
 
 
 const dashboardRoutes = [
-  {
-    path: "/dashboard",
-    name: "Dashboard",
-    icon: Dashboard,
-    component: DashboardPage,
-    layout: "/admin"
-  },
+  // {
+  //   path: "/dashboard",
+  //   name: "Dashboard",
+  //   icon: Dashboard,
+  //   component: DashboardPage,
+  //   layout: "/admin"
+  // },
   {
     path: "/user",
     name: "User Profile",
@@ -71,8 +71,8 @@ const dashboardRoutes = [
     layout: "/admin"
   },
   // // owner 
-  
-  
+
+
 
   // Supplier
 

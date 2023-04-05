@@ -208,13 +208,13 @@ import PropTypes from 'prop-types';
 let ps;
 
 const routes = [
-  {
-    path: "/dashboard",
-    name: "Dashboard",
-    icon: Dashboard,
-    component: OwnerDashboard,
-    layout: "/owner"
-  },
+  // {
+  //   path: "/dashboard",
+  //   name: "Dashboard",
+  //   icon: Dashboard,
+  //   component: OwnerDashboard,
+  //   layout: "/owner"
+  // },
   {
     path: "/add-new-user",
     // href: "/owner/add-new-user",

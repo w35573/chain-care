@@ -177,13 +177,13 @@ import Maps from "../../main_dashboard/views/Maps/Maps.js";
 let ps;
 
 const routes = [
-  {
-    path: "/dashboard",
-    name: "Dashboard",
-    icon: Dashboard,
-    component: TransporterDashboard,
-    layout: "/transporter"
-  },
+  // {
+  //   path: "/dashboard",
+  //   name: "Dashboard",
+  //   icon: Dashboard,
+  //   component: TransporterDashboard,
+  //   layout: "/transporter"
+  // },
   {
     path: "/handle-package",
     name: "Handle Package",
